@@ -1,4 +1,4 @@
- <h1 align="center">✨ 𝘼𝙮𝙞𝙞𝙣 𝙐𝙗𝙤𝙩 ✨</h1>
+ <h1 align="center">Amang Pyrobot</h1>
 
 <a href="https://github.com/AyiinXd/AyiinUbot/commits"> <img src="https://img.shields.io/github/last-commit/AyiinXd/AyiinUbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/AyiinXd/AyiinUbot)
@@ -12,7 +12,7 @@
   <img src="https://telegra.ph/file/b930d00402db6611bd223.jpg">
 </p>
 
-👩‍💻 AyiinUbot adalah Pyrogram Userbot Telegram modular yang berjalan di Python3 dengan database MongoDB.
+👩‍ AmangPyrobot adalah Pyrogram Userbot Telegram modular yang berjalan di Python3 dengan database MongoDB.
 
 
 # Disclaimer
@@ -45,9 +45,9 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 ### Tutorial Deploy di VPS
 
 
- • `git clone https://github.com/AyiinXd/AyiinUbot`
+ • `git clone https://github.com/amanqs/AmangPyrobot`
 
- • `cd AyiinUbot`
+ • `cd AmangPyrobot`
 
  • `pip3 install -U -r requirements.txt`
 
@@ -59,9 +59,9 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
   - ketik ctrl + S
   - ctrl + X
 
- • `screen -S AyiinUbot`
+ • `screen -S AmangPyrobot`
 
- • `python3 -m pyAyiin`
+ • `bash start`
 
 </details>
 
