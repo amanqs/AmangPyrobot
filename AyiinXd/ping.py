@@ -31,14 +31,14 @@ async def pingme(client: Client, message: Message):
     start = datetime.now()
     uptime = await yins.get_readable_time((time.time() - StartTime))
     xnxx = await message.reply("<b>✧</b>")
-    await xnxx.edit("<b>✧✧</b>")
-    await xnxx.edit("<b>✧✧✧</b>")
-    await xnxx.edit("<b>✧✧✧✧</b>")
-    await xnxx.edit("<b>✧✧✧✧✧</b>")
+    await xnxx.edit("<b>M</b>")
+    await xnxx.edit("<b>E</b>")
+    await xnxx.edit("<b>K</b>")
+    await xnxx.edit("<b>I</b>")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await xnxx.edit(
-        f"<b>✧ Aʏɪɪɴ Uʙᴏᴛ ✧</b>\n\n"
+        f"<b>✧ Aᴍᴀɴɢ Pʏʀᴏʙᴏᴛ ✧</b>\n\n"
         f"<b>✧ Pɪɴɢᴇʀ :</b> <code>{duration}ms</code>\n"
         f"<b>✧ Uᴘᴛɪᴍᴇ :</b> <code>{uptime}</code>"
     )
