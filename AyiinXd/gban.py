@@ -19,7 +19,7 @@ from pyAyiin.pyrogram import eor
 from . import yins
 
 
-@Ayiin(["gban"])
+@Ayiin(["gban", "asu"])
 async def gban(event):
     if event.fwd_from:
         return
