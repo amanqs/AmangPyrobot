@@ -33,7 +33,7 @@ async def aliveme(client: Client, message: Message):
     user = await client.get_me()
     output = (
         f"**Tʜᴇ [AmangPyrobot](https://github.com/amanqs/AmangPyrobot)**\n\n"
-        f"**{https://telegra.ph/file/b930d00402db6611bd223.jpg}**\n\n"
+        f"**ALIVE**\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
         f"≽ **Bᴀsᴇ Oɴ :** •[{adB.name}]•\n"
         f"≽ **Oᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id}) \n"
