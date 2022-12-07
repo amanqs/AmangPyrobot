@@ -33,7 +33,7 @@ async def aliveme(client: Client, message: Message):
     user = await client.get_me()
     output = (
         f"**Tʜᴇ [AmangPyrobot](https://github.com/amanqs/AmangPyrobot)**\n\n"
-        f"**{var.ALIVE_TEXT}**\n\n"
+        f"**{https://telegra.ph/file/b930d00402db6611bd223.jpg}**\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
         f"≽ **Bᴀsᴇ Oɴ :** •[{adB.name}]•\n"
         f"≽ **Oᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id}) \n"
@@ -44,18 +44,6 @@ async def aliveme(client: Client, message: Message):
         f"≽ **Bot Vᴇʀsɪᴏɴ :** `{ayiin_ver}` [{HOSTED_ON}]\n"
         "╰✠╼━━━━━━━━━━━━━━━✠╯\n\n"
     )
-    await message.delete()
-    try:
-        if var.ALIVE_PIC:
-            endsw = (".mp4", ".gif")
-            if var.ALIVE_PIC.endswith(endsw):
-                await client.send_video(chat_id=chat_id, video=var.ALIVE_PIC, caption=output)
-            else:
-                await client.send_photo(chat_id=chat_id, photo=var.ALIVE_PIC, caption=output)
-        else:
-            await message.reply_text(output)
-    except BaseException as xd:
-        await message.reply(xd)
 
 
 CMD_HELP.update(
