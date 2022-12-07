@@ -78,7 +78,7 @@ async def added_to_group_msg(client, cq):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Buat Ubot", url=f"{https"//t.me/amwang}"),
+                    InlineKeyboardButton("PM AMANG", callback_data="gen_string"),
                     InlineKeyboardButton("Kirim String", callback_data="sending_string"),
                 ]
             ]
@@ -89,7 +89,7 @@ async def added_to_group_msg(client, cq):
 @callback("gen_string")
 async def added_to_group_msg(_, cq):
     await cq.answer(
-        "Modul Buat String Belum Tersedia....",
+        "silahkan PC @amwang",
         show_alert=True,
     )
 
