@@ -18,7 +18,7 @@ from pyAyiin.pyrogram import eod, eor
 from . import hndlr, yins
 
 
-@Ayiin(["inline", "help"])
+@Ayiin(["inline", "help", "tulong"])
 async def module_help(client: Client, message: Message):
     if tgbot:
         try:
@@ -60,9 +60,9 @@ async def module_help(client: Client, message: Message):
             xnxx = await eor(message, "🤖")
             sleep(3)
             await xnxx.edit(
-                f"**[✧ Ayiin Ubot ✧](https://github.com/AyiinXd/AyiinUbot)**\n"
+                f"**[✧ Aᴍᴀɴɢ Pʏʀᴏʙᴏᴛ ✧](https://github.com/AyiinXd/AyiinUbot)**\n"
                 f"**߷ Plugins** `{len(CMD_HELP)}` **Modules**\n"
                 f"**♕︎ Owner:** [{user.first_name}](tg://user?id={user.id})\n\n"
                 f"**⍟**   {string}"
-                f"\n\n☞  **Support** : @AyiinChat\n☞  **Notes** :  `{choice(hndlr)}help gcast` **Untuk Melihat Modules Lainnya**"
+                f"\n\n☞  **Support** : @amwangstore\n☞  **Notes** :  `{choice(hndlr)}help gcast` **Untuk Melihat Modules Lainnya**"
             )
