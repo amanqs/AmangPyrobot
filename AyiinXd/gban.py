@@ -69,7 +69,6 @@ async def gban_user(client: Client, message: Message):
     await AyiinXD.edit(msg)
     
     
-    )
     
     
     CMD_HELP.update(
