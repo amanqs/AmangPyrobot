@@ -32,7 +32,7 @@ async def aliveme(client: Client, message: Message):
     chat_id = message.chat.id
     user = await client.get_me()
     output = (
-        f"**Tʜᴇ [Ayiin Ubot](https://github.com/AyiinXd/AyiinUbot)**\n\n"
+        f"**Tʜᴇ [AmangPyrobot](https://github.com/amanqs/AmangPyrobot)**\n\n"
         f"**{var.ALIVE_TEXT}**\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
         f"≽ **Bᴀsᴇ Oɴ :** •[{adB.name}]•\n"
@@ -40,8 +40,8 @@ async def aliveme(client: Client, message: Message):
         f"≽ **Mᴏᴅᴜʟᴇs :** `{len(CMD_HELP)} Modules` \n"
         f"≽ **Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{python_version()}`\n"
         f"≽ **Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{fip_ver}`\n"
-        f"≽ **Pʏ-Aʏɪɪɴ Vᴇʀsɪᴏɴ :** `{__version__}`\n"
-        f"≽ **Aʏɪɪɴ Vᴇʀsɪᴏɴ :** `{ayiin_ver}` [{HOSTED_ON}]\n"
+        f"≽ **Pʏ-Amang Vᴇʀsɪᴏɴ :** `{__version__}`\n"
+        f"≽ **Bot Vᴇʀsɪᴏɴ :** `{ayiin_ver}` [{HOSTED_ON}]\n"
         "╰✠╼━━━━━━━━━━━━━━━✠╯\n\n"
     )
     await message.delete()
@@ -62,7 +62,7 @@ CMD_HELP.update(
     {"alive": (
         "alive",
         {
-            "alive": "Chech Your Userbot.",
+            "alive": "Check Your Userbot.",
         }
     )
     }
