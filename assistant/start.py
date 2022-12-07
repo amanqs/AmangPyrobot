@@ -25,14 +25,10 @@ from pyAyiin.assistant import callback
 
 
 START = """
-❏ Haii {}
-╭╼┅━━━━━╍━━━━━┅━━━━━━━┅╾
-├▹ {} Adalah Ubot Pyrogram Telegram
-├▹ Yang Dibuat Untuk Bersenang-Senang
-├▹ Dan Memiliki Modul Yg Bisa Anda Gunakan
-├▹ Bisa Membuat Ubot Sampai Dengan 10 String 
-╰╼┅━━━━━╍━━━━━┅━━━━━━━┅╾
-❏ © py-Ayiin v{}
+👋🏻 Haii {}
+
+🤖Nama saya{} 
+🧑🏻‍💻Klik Tombol Dibawah Jika ingin membuat Userbot.
 """
 
 
@@ -44,12 +40,12 @@ async def start(bot, msg):
     buttons = [
         [
             InlineKeyboardButton(
-                "☞︎︎︎ Cʀᴇᴀᴛᴇ Aʏɪɪɴ Uʙᴏᴛ ☜︎︎︎", callback_data="multi_client")
+                "☞︎︎︎ Buat Userbot ☜︎︎︎", callback_data="multi_client")
         ],
         [
             InlineKeyboardButton(
-                "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅ", callback_data="help_or_command"), InlineKeyboardButton(
-                "ᴀʙᴏᴜᴛ", callback_data="about")
+                "Perintah", callback_data="help_or_command"), InlineKeyboardButton(
+                "Tentang", callback_data="about")
         ],
     ]
     await bot.send_message(
@@ -78,11 +74,11 @@ async def added_to_group_msg(client, cq):
 @callback("multi_client")
 async def added_to_group_msg(client, cq):
     await cq.message.reply(
-        f"Silahkan Pilih Metode Dibawah Ini",
+        f"Silahkan Hubungi Admin Dibawah Ini",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Buat Ubot", callback_data="gen_string"),
+                    InlineKeyboardButton("Buat Ubot", url=f"{https"//t.me/amwang}"),
                     InlineKeyboardButton("Kirim String", callback_data="sending_string"),
                 ]
             ]
