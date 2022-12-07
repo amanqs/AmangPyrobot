@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph//file/78ec83169711f650f0188.jpg">
+  <img src="https://telegra.ph/file/b930d00402db6611bd223.jpg">
 </p>
 
 👩‍💻 AyiinUbot adalah Pyrogram Userbot Telegram modular yang berjalan di Python3 dengan database MongoDB.
