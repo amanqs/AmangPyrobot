@@ -66,7 +66,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 </details>
 
 <details>
-<summary><b>🔗 Deploy AyiinUbot</b></summary>
+<summary><b>🔗 Deploy AmangPyrobot</b></summary>
 <br>
 
 
@@ -77,14 +77,14 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 # Updates & Support
 
-Follow Channel [@AyiinSupport](https://t.me/AyiinSupport) untuk info Update bot dan Gabung Group [@AyiinChat](https://t.me/AyiinChat) untuk untuk diskusi, pelaporan bug, dan bantuan tentang AyiinUbot.
+Follow Channel [@amwangstore](https://t.me/amwangstore) untuk info Update bot [@AMANG](https://t.me/amwang) untuk pelaporan bug, dan bantuan tentang AmangPyrobot.
 
 
 # © Credits
 -  [AyiinXd](https://github.com/AyiinXd) for [AyiinUbot](https://github.com/AyiinXd/AyiinUbot)
 -  [Dan](https://github.com/delivrance/) for [Pyrogram](https://github.com/pyrogram/pyrogram)
-
+-  [Amang](https://github.com/amanqs/AmangPyrobot) for [AmangPyrobot](https://github.com/amanqs/AmangPyrobot)
 
 # License
 [![License](https://www.gnu.org/graphics/agplv3-155x51.png)](LICENSE)    
-Ayiin Ubot is licensed under [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.html) v3 or later.
+AmangPyrobot is licensed under [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.html) v3 or later.
