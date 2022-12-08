@@ -56,7 +56,7 @@ async def start(bot, msg):
 
 
 @callback("help_or_command")
-async def added_to_group_msg(client, cq):
+async def added_to_group_msg(_, cq):
     await cq.answer(
         "Sedang Tahap Percobaan...",
         show_alert=True,
@@ -64,7 +64,7 @@ async def added_to_group_msg(client, cq):
 
 
 @callback("about")
-async def added_to_group_msg(client, cq):
+async def added_to_group_msg(_, cq):
     await cq.answer(
         "Sedang Tahap Percobaan...",
         show_alert=True,
@@ -72,31 +72,36 @@ async def added_to_group_msg(client, cq):
 
 
 @callback("multi_client")
-async def added_to_group_msg(client, cq):
+async def added_to_group_msg(_, cq):
+    button = [
+        [
+            InlineKeyboardButton(
+                text="SESSION 1",
+                callback_data=f"session_1",
+            ),
+            InlineKeyboardButton(
+                text="SESSION 2",
+                callback_data=f"session_2",
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text="SESSION 3",
+                callback_data=f"session_3",
+            ),
+            InlineKeyboardButton(
+                text="SESSION 4",
+                callback_data=f"session_4",
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text="SESSION 5",
+                callback_data=f"session_5",
+            ),
+        ],
+    ]
     await cq.message.reply(
-        f"Silahkan Hubungi Admin Dibawah Ini",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton("PM AMANG", callback_data="gen_string"),
-                    InlineKeyboardButton("Kirim String", callback_data="sending_string"),
-                ]
-            ]
-        )
-    )
-
-
-@callback("gen_string")
-async def added_to_group_msg(_, cq):
-    await cq.answer(
-        "silahkan PC @amwang",
-        show_alert=True,
-    )
-
-
-@callback("sending_string")
-async def added_to_group_msg(_, cq):
-    await cq.answer(
-        "Modul Kirim String Belum Tersedia....",
-        show_alert=True,
+        text="String Session Mana Yang Ingin Anda Buat ???",
+        reply_markup=InlineKeyboardMarkup(button),
     )
