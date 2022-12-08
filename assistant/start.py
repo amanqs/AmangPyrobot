@@ -25,10 +25,14 @@ from pyAyiin.assistant import callback
 
 
 START = """
-👋🏻 Haii {}
-
-🤖Nama saya{} 
-🧑🏻‍💻Klik Tombol Dibawah Jika ingin membuat Userbot.
+❏ Haii {}
+╭╼┅━━━━━╍━━━━━┅━━━━━━━┅╾
+├▹ {} Adalah Ubot Pyrogram Telegram
+├▹ Yang Dibuat Untuk Bersenang-Senang
+├▹ Dan Memiliki Modul Yg Bisa Anda Gunakan
+├▹ Bisa Membuat Ubot Sampai Dengan 10 String 
+╰╼┅━━━━━╍━━━━━┅━━━━━━━┅╾
+❏ © py-Ayiin v{}
 """
 
 
@@ -40,12 +44,12 @@ async def start(bot, msg):
     buttons = [
         [
             InlineKeyboardButton(
-                "☞︎︎︎ Buat Userbot ☜︎︎︎", callback_data="multi_client")
+                "☞︎︎︎ Cʀᴇᴀᴛᴇ Uʙᴏᴛ ☜︎︎︎", callback_data="multi_client")
         ],
         [
             InlineKeyboardButton(
-                "Perintah", callback_data="help_or_command"), InlineKeyboardButton(
-                "Tentang", callback_data="about")
+                "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅ", callback_data="help_or_command"), InlineKeyboardButton(
+                "ᴀʙᴏᴜᴛ", callback_data="about")
         ],
     ]
     await bot.send_message(
