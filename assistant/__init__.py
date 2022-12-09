@@ -14,10 +14,12 @@
 # ========================×========================
 
 import time
+import logging
 
 from config import *
 
 from pyAyiin import PyrogramXd
+from pyAyiin.Clients import *
 from pyAyiin.config import Var
 
 
@@ -31,3 +33,5 @@ hndlr = [
     f"{var.HNDLR[3]}",
     f"{var.HNDLR[4]}",
     f"{var.HNDLR[5]}",
+]
+logs = logging.getLogger(__name__)
