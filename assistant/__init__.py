@@ -18,7 +18,6 @@ import time
 from config import *
 
 from pyAyiin import PyrogramXd
-
 from pyAyiin.config import Var
 
 
@@ -32,5 +31,3 @@ hndlr = [
     f"{var.HNDLR[3]}",
     f"{var.HNDLR[4]}",
     f"{var.HNDLR[5]}",
-    
-]
